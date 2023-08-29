@@ -1,0 +1,51 @@
+ .container{
+ 	display:flex;
+ 	justify-content:center;
+ }
+ .face1{
+ 	height:100px;
+ 	width:100px;
+ 	border-radius:50%;
+ 	background-color:yellow;
+ 	position:relative;
+
+ }
+ .leye{
+ 	background-color:goldenrod;
+ 	height:20px;
+ 	width:10px;
+ 	border-radius:100%;
+ 	top:25px;
+ 	left:25px;
+ 	position:absolute;
+ }
+ .reye{
+ 	background-color:goldenrod;
+ 	height:20px;
+ 	width:10px;
+ 	border-radius:150%;
+ 	top:25px;
+ 	left:60px;
+ 	position:absolute;
+
+ }
+ .mouth{
+ 	background-color:goldenrod;
+ 	height:25px;
+ 	width:50px;
+ 	border-radius:0 0 80px 80px;
+ 	top:60px;
+ 	left:25px;
+ 	position:absolute;
+ 	overflow:hidden;
+ }
+ .tounge{
+ 	background-color:goldenrod;
+ 	height:40px;
+ 	width:25px;
+ 	border-radius:50%;
+ 	top:10px;
+ 	left:5px;
+ 	position:absolute;
+
+ }
